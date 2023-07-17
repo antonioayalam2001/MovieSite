@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <title>Antonio M Movie Site</title>
+    </head>
+    <body>
+        <header >
+            <video id="videoPreview" src="video/jurasic world.webm" autoplay muted ></video>
+            <div id="movie_bg" src="" alt="" class="movie_bg">
+            <nav>
+                <div class="logo_ul">
+                    <img src="img/logo.png" alt="" />
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Series</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </div>
+                <div class="search_user">
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                        id="searchInput"
+                    />
+                    <img src="img/user.jpg" alt="" />
+                    <!-- Contenedor de resultados -->
+                    <div class="search">
+                        <a class="card">
+                            <img src="img/theboys.jpg" alt="" />
+                            <div class="cont">
+                                <h3>The boys</h3>
+                                <p>
+                                    Action , 2021,
+'                                    <span class="card__imdb">IMDB</span> 9.6
+                                    <span class="material-symbols-outlined star"
+                                        >star</span'
+                                    >
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="content">
+                <h1 id="content_title" class="content__title">Jurassic Park</h1>
+                <p id="content_description" class="content__description" >
+                    Jurassic Park is a 1993 American science fiction film[4] directed by Steven Spielberg, produced by Kathleen Kennedy and Gerald R. Molen, and starring Sam Neill, Laura Dern, Jeff Goldblum, and Richard Attenborough. It is the first installment in the Jurassic Park franchise, and the first film in the original Jurassic Park trilogy, and is based on Michael Crichton's 1990 novel of the same name, with a screenplay by Crichton and David Koepp.
+                </p>
+                <div class="details">
+                    <h6></h6>
+                    <h5 id="details_gen">Thriller</h5>
+                    <h4 id="details_year">2021</h4>
+                    <h3 id="details_rate"> 
+                        <span class="card__imdb">IMDB</span>
+                        <span class="material-symbols-outlined star"
+                            >star</span > 9.6
+                    </h3>
+                </div>
+                <div class="content__btns">
+                    <a href=""> Watch <span class="material-symbols-outlined">play_arrow</span> </a>
+                    <a href=""> <span class="material-symbols-outlined">cloud_download</span> </a>
+                </div>
+            </div>
+
+            <section class="popular__section">
+                <h4>Popular</h4>
+                <!-- Arrow icons -->
+                    <span class="material-symbols-outlined arrow__left" id="arrow__left"
+                        >arrow_back_ios</span
+                    >
+                    <span class="material-symbols-outlined arrow__right" id="arrow__right"
+                        >arrow_forward_ios</span
+                    >
+                <div class="section__cards">
+                    <a href="" class="card">
+                        <img class="poster" src="img/avengers.jpg" alt="">
+                        <div class="rest__card">
+                            <img src="img/avengers1.jpg" alt="">
+                            <div class="card__content">
+                                <div>
+                                    <h4>Avengers<span>Action,2016</span></h4>
+                                    <h3>
+                                        <span class="card__imdb">IMDB</span>
+                                        <span class="material-symbols-outlined star"
+                                            >star</span
+                                        >
+                                        9.6
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+        </header>
+    </body>
+    <script src="app.js"></script>
+</html>
