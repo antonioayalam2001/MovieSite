@@ -246,6 +246,9 @@ header .content{
         margin-top: 1rem;
         width: clamp(300px, 50%, 500px);
         word-break: break-word;
+        background-color: #0000003c;
+        padding: 1rem;
+        border-radius: 10px;
     }
     .details{
         display: flex;
